@@ -1,5 +1,5 @@
 {
-  "name": "helios-distribution-types",
+  "name": "bdstw-distribution-types",
   "version": "1.3.0",
   "description": "Type interfaces for Helios Launcher's distribution specification.",
   "main": "build/index.js",
