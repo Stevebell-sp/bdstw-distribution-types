@@ -10,7 +10,8 @@
     "build": "npm run clean && npm run tsc",
     "lint": "eslint . --ext .js,.ts",
     "bl": "npm run build && npm link",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
