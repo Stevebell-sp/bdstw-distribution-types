@@ -3,9 +3,11 @@ export enum Type {
     Library = 'Library',
     ForgeHosted = 'ForgeHosted',
     Forge = 'Forge',
+    NeoForge = 'NeoForge',
     Fabric = 'Fabric',
     LiteLoader = 'LiteLoader',
     ForgeMod = 'ForgeMod',
+    NeoForgeMod = 'NeoForgeMod',
     FabricMod = 'FabricMod',
     LiteMod = 'LiteMod',
     File = 'File',
@@ -37,6 +39,10 @@ export const TypeMetadata: {[property: string]: TypeMetadata} = {
         id: Type.Forge,
         defaultExtension: 'jar'
     },
+    NeoForge: {
+        id: Type.NeoForge,
+        defaultExtension: 'jar'
+    },
     Fabric: {
         id: Type.Fabric,
         defaultExtension: 'jar'
@@ -47,6 +53,10 @@ export const TypeMetadata: {[property: string]: TypeMetadata} = {
     },
     ForgeMod: {
         id: Type.ForgeMod,
+        defaultExtension: 'jar'
+    },
+    NeoForgeMod: {
+        id: Type.NeoForgeMod,
         defaultExtension: 'jar'
     },
     FabricMod: {
